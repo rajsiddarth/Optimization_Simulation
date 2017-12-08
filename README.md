@@ -5,7 +5,7 @@ We will implement Genetic algorithm using the following problem statement and Da
 
 - Building the initial population also called as set of chromosomes
 
-- Formulating fitness function for evaluation.
+- Formulating fitness function for evaluation.(Tournament Selection/Roulette wheel Selection/Survival of the fittest)
 
 - Reproduction using mutation or crossover(single -point splicing or multi point splicing) 
 
@@ -23,5 +23,14 @@ You are going to spend a month in the wilderness. You're taking a backpack with 
 - Weights: 5, 6, 3, 4, 11, 2, 7, 8, 10, 9, 1, 12, 11 in the respective order
 
 ## Simulated Annealing
+Simulated Annealing can be compared with the annealing process in Metallurgy as the following:
 
+- Metal == Problems
+- Energy State == Cost Function
+- Temperature == Control Parameter
+
+Simulated Annealing starts with a higher temperature where we are likely to make wild moves and the system cools down according to our Annealing Schedule.When the system cools down the probalbility of accepting a smaller change is higher.We define the cost functions for our current solution,C(x) and new solution,C(x').The probability of acceptance is given by:
+- 
+
+We have 6 stocks with the returns. Let us say, an amount of Rs. 150000 is there to invest. Minimum investment in each stock should be 0.03. Entire amount should be invested in the stocks maximizing the returns. Start with the initial solution taking equal investment in each stock. Use the Simulated annealing to solve this
 

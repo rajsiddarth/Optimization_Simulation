@@ -1,2 +1,2 @@
-# Optimization_Simulation
-Algorithms for Optimization &amp; Simulation
+# Optimization & Simaulation
+

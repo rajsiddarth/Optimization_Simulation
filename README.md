@@ -29,8 +29,10 @@ Simulated Annealing can be compared with the annealing process in Metallurgy as 
 - Energy State == Cost Function
 - Temperature == Control Parameter
 
-Simulated Annealing starts with a higher temperature where we are likely to make wild moves and the system cools down according to our Annealing Schedule.When the system cools down the probalbility of accepting a smaller change is higher.We define the cost functions for our current solution,C(x) and new solution,C(x').The probability of acceptance is given by:
-- 
+Simulated Annealing starts with a higher temperature where we are likely to make wild moves and the system cools down according to our Annealing Schedule.When the system cools down the probalbility of accepting a smaller change is higher.We define the cost functions for our current solution,C(x) and new solution,C(x').The probability of acceptance is given by
 
-We have 6 stocks with the returns. Let us say, an amount of Rs. 150000 is there to invest. Minimum investment in each stock should be 0.03. Entire amount should be invested in the stocks maximizing the returns. Start with the initial solution taking equal investment in each stock. Use the Simulated annealing to solve this
+- <a href="https://www.codecogs.com/eqnedit.php?latex=P_{accept}=\exp&space;[(C(x)-C(x'))/T]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P_{accept}=\exp&space;[(C(x)-C(x'))/T]" title="P_{accept}=\exp [(C(x)-C(x'))/T]" /></a>
+
+### Problem Statement
+We have 6 stocks with the returns and an amount of $100,000 to invest. The minimum investment in each stock should be 0.03 and the entire amount should be invested in the stocks maximizing the returns. We will start with the initial solution taking equal investment in each stock and then use the Simulated annealing to solve the problem
 

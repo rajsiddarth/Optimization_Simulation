@@ -1,2 +1,3 @@
-# Optimization & Simaulation
+# Optimization & Simulation
 
+## Genetic Algorithm
